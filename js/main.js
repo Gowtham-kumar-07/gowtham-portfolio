@@ -5,12 +5,12 @@
    ════════════════════════════════════════════ */
 
 const CARDS_META = [
-  { tag:'Brand Reel',   title:'Premium Brand Film',     views:'1.7M views', grad:'linear-gradient(150deg,#1c1c3a,#0d0d1f)' },
-  { tag:'Talking Head', title:'Creator Hook Reel',      views:'1.2M views', grad:'linear-gradient(150deg,#1a1226,#0d0d1f)' },
-  { tag:'Product',      title:'Product Launch Cut',     views:'980K views',  grad:'linear-gradient(150deg,#0f1a2e,#0a0a14)' },
-  { tag:'Podcast Clip', title:'Viral Podcast Snippet',  views:'2.1M views',  grad:'linear-gradient(150deg,#1f1a0f,#0f0d0a)' },
-  { tag:'Travel',       title:'Travel Montage Edit',    views:'760K views',  grad:'linear-gradient(150deg,#0f1f1a,#0a0f0e)' },
-  { tag:'Business',     title:'CEO Thought Leadership', views:'1.4M views',  grad:'linear-gradient(150deg,#1f0f12,#0f0a0b)' },
+  { tag:'Talking Head Reel',   title:'Devin Jatho Style',views:'1.2M views', grad:'linear-gradient(150deg,#1c1c3a,#0d0d1f)' },
+  { tag:'UGC VIDEO', title:'Product Reel',      views:'1.2M views', grad:'linear-gradient(150deg,#1a1226,#0d0d1f)' },
+  { tag:'Real Estate',      title:'Listing Video',     views:'980K views',  grad:'linear-gradient(150deg,#0f1a2e,#0a0a14)' },
+  { tag:'Motion Graphics', title:'UI Animation',  views:'2.1M views',  grad:'linear-gradient(150deg,#1f1a0f,#0f0d0a)' },
+  { tag:'Talking Head Reel',       title:'Devin Jatho Style',    views:'760K views',  grad:'linear-gradient(150deg,#0f1f1a,#0a0f0e)' },
+  { tag:'Business',     title:'Construction Documenting', views:'1.4M views',  grad:'linear-gradient(150deg,#1f0f12,#0f0a0b)' },
 ];
 
 function toEmbed(url) {
@@ -52,7 +52,7 @@ function buildGrid(videos) {
         '<div class="card-footer">'+
           '<div class="work-tag">'+meta.tag+'</div>'+
           '<div class="work-title">'+meta.title+'</div>'+
-          '<div class="work-views">&#8593; '+meta.views+'</div>'+
+          //'<div class="work-views">&#8593; '+meta.views+'</div>'+
         '</div>'+
       '</div>';
   });
